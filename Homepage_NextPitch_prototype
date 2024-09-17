@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vending Machine Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#specifications">Specifications</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <h1>Vending Machine</h1>
+      <p>Get your favorite snacks and drinks with our state-of-the-art vending machine.</p>
+      <img src="images/vending-machine.jpg" alt="Vending Machine">
+    </section>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>High-capacity storage for a wide variety of snacks and drinks</li>
+        <li>Advanced payment system with cashless options</li>
+        <li>Energy-efficient design for reduced operating costs</li>
+      </ul>
+    </section>
+    <section id="specifications">
+      <h2>Specifications</h2>
+      <table>
+        <tr>
+          <th>Dimension</th>
+          <td>36" x 24" x 72"</td>
+        </tr>
+        <tr>
+          <th>Weight</th>
+          <td>250 lbs</td>
+        </tr>
+        <tr>
+          <th>Power Consumption</th>
+          <td>120V, 60Hz, 10A</td>
+        </tr>
+      </table>
+    </section>
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-container">
+        <img src="images/vending-machine-2.jpg" alt="Vending Machine 2">
+        <img src="images/vending-machine-3.jpg" alt="Vending Machine 3">
+        <!-- Add more images here -->
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
